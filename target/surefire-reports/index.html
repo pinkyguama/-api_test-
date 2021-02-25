@@ -1,0 +1,749 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-localExecution">
+              <span class="suite-name border-passed">localExecution</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-localExecution">
+                    <span>C:\Users\jesrojas2\IdeaProjects\restassured\src\test\resources\localhost.suite.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-localExecution">
+                    <span class="test-stats">2 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-localExecution">
+                    <span>2 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-localExecution">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-localExecution">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-localExecution">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-localExecution">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">19 methods,   19 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-localExecution" class="hide-methods passed suite-localExecution"> (hide)</a> <!-- hide-methods passed suite-localExecution -->
+                      <a href="#" panel-name="suite-localExecution" class="show-methods passed suite-localExecution"> (show)</a> <!-- show-methods passed suite-localExecution -->
+                    </span>
+                    <div class="method-list-content passed suite-localExecution">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-localExecution" title="postTest" hash-for-method="A1Test_update_Post">A1Test_update_Post</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-localExecution" title="CommentTest" hash-for-method="A1Test_validate_specific_comment">A1Test_validate_specific_comment</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-localExecution" title="CommentTest" hash-for-method="A2Test_Update_comment">A2Test_Update_comment</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-localExecution" title="postTest" hash-for-method="A2Test_validate_Specific_Post">A2Test_validate_Specific_Post</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-localExecution" title="CommentTest" hash-for-method="A3Test_delete_comment">A3Test_delete_comment</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-localExecution" title="postTest" hash-for-method="Test_CreatePost_success">Test_CreatePost_success</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-localExecution" title="CommentTest" hash-for-method="Test_Create_comment_success">Test_Create_comment_success</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-localExecution" title="postTest" hash-for-method="Test_Invalid_Token_Cant_Create_New_Post">Test_Invalid_Token_Cant_Create_New_Post</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-localExecution" title="postTest" hash-for-method="Test_delete_Post">Test_delete_Post</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-localExecution" title="CommentTest" hash-for-method="Test_try_to_Create_comment_Unauthorized">Test_try_to_Create_comment_Unauthorized</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-localExecution" title="postTest" hash-for-method="Test_try_to_delete_nonexistent_Post">Test_try_to_delete_nonexistent_Post</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-localExecution" title="CommentTest" hash-for-method="Test_try_to_delete_nonexistent_comment">Test_try_to_delete_nonexistent_comment</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-localExecution" title="postTest" hash-for-method="Test_try_to_list_nonexistent_Post">Test_try_to_list_nonexistent_Post</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-localExecution" title="CommentTest" hash-for-method="Test_try_to_show_nonexistent_comment">Test_try_to_show_nonexistent_comment</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-localExecution" title="postTest" hash-for-method="Test_try_to_update_nonexistent_Post">Test_try_to_update_nonexistent_Post</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-localExecution" title="CommentTest" hash-for-method="Test_try_to_update_nonexistent_comment">Test_try_to_update_nonexistent_comment</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-localExecution" title="postTest" hash-for-method="Test_validateAll_posts_Schema">Test_validateAll_posts_Schema</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-localExecution" title="CommentTest" hash-for-method="Test_validate_All_Comments">Test_validate_All_Comments</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-localExecution" title="postTest" hash-for-method="Test_validate_try_to_list_posts_no_login">Test_validate_try_to_list_posts_no_login</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-localExecution -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-localExecution" class="panel localExecution">
+          <div class="suite-localExecution-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">postTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="A1Test_update_Post">
+                  </a> <!-- A1Test_update_Post -->
+                  <span class="method-name">A1Test_update_Post</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="A2Test_validate_Specific_Post">
+                  </a> <!-- A2Test_validate_Specific_Post -->
+                  <span class="method-name">A2Test_validate_Specific_Post</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Test_CreatePost_success">
+                  </a> <!-- Test_CreatePost_success -->
+                  <span class="method-name">Test_CreatePost_success</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Test_Invalid_Token_Cant_Create_New_Post">
+                  </a> <!-- Test_Invalid_Token_Cant_Create_New_Post -->
+                  <span class="method-name">Test_Invalid_Token_Cant_Create_New_Post</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Test_delete_Post">
+                  </a> <!-- Test_delete_Post -->
+                  <span class="method-name">Test_delete_Post</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Test_try_to_delete_nonexistent_Post">
+                  </a> <!-- Test_try_to_delete_nonexistent_Post -->
+                  <span class="method-name">Test_try_to_delete_nonexistent_Post</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Test_try_to_list_nonexistent_Post">
+                  </a> <!-- Test_try_to_list_nonexistent_Post -->
+                  <span class="method-name">Test_try_to_list_nonexistent_Post</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Test_try_to_update_nonexistent_Post">
+                  </a> <!-- Test_try_to_update_nonexistent_Post -->
+                  <span class="method-name">Test_try_to_update_nonexistent_Post</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Test_validateAll_posts_Schema">
+                  </a> <!-- Test_validateAll_posts_Schema -->
+                  <span class="method-name">Test_validateAll_posts_Schema</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Test_validate_try_to_list_posts_no_login">
+                  </a> <!-- Test_validate_try_to_list_posts_no_login -->
+                  <span class="method-name">Test_validate_try_to_list_posts_no_login</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-localExecution-class-passed -->
+          <div class="suite-localExecution-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">CommentTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="A1Test_validate_specific_comment">
+                  </a> <!-- A1Test_validate_specific_comment -->
+                  <span class="method-name">A1Test_validate_specific_comment</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="A2Test_Update_comment">
+                  </a> <!-- A2Test_Update_comment -->
+                  <span class="method-name">A2Test_Update_comment</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="A3Test_delete_comment">
+                  </a> <!-- A3Test_delete_comment -->
+                  <span class="method-name">A3Test_delete_comment</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Test_Create_comment_success">
+                  </a> <!-- Test_Create_comment_success -->
+                  <span class="method-name">Test_Create_comment_success</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Test_try_to_Create_comment_Unauthorized">
+                  </a> <!-- Test_try_to_Create_comment_Unauthorized -->
+                  <span class="method-name">Test_try_to_Create_comment_Unauthorized</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Test_try_to_delete_nonexistent_comment">
+                  </a> <!-- Test_try_to_delete_nonexistent_comment -->
+                  <span class="method-name">Test_try_to_delete_nonexistent_comment</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Test_try_to_show_nonexistent_comment">
+                  </a> <!-- Test_try_to_show_nonexistent_comment -->
+                  <span class="method-name">Test_try_to_show_nonexistent_comment</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Test_try_to_update_nonexistent_comment">
+                  </a> <!-- Test_try_to_update_nonexistent_comment -->
+                  <span class="method-name">Test_try_to_update_nonexistent_comment</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Test_validate_All_Comments">
+                  </a> <!-- Test_validate_All_Comments -->
+                  <span class="method-name">Test_validate_All_Comments</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-localExecution-class-passed -->
+        </div> <!-- panel localExecution -->
+        <div panel-name="test-xml-localExecution" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\jesrojas2\IdeaProjects\restassured\src\test\resources\localhost.suite.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite thread-count=&quot;2&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot; name=&quot;localExecution&quot; parallel=&quot;tests&quot;&gt;
+  &lt;parameter name=&quot;baseUrl&quot; value=&quot;https://api-coffee-testing.herokuapp.com&quot;/&gt;
+  &lt;test thread-count=&quot;2&quot; verbose=&quot;0&quot; name=&quot;comment tests&quot; parallel=&quot;tests&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;CommentTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- comment tests --&gt;
+  &lt;test thread-count=&quot;2&quot; verbose=&quot;0&quot; name=&quot;post tests&quot; parallel=&quot;tests&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;postTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- post tests --&gt;
+&lt;/suite&gt; &lt;!-- localExecution --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-localExecution" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for localExecution</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">comment tests (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">post tests (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-localExecution" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for localExecution</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">create_comment</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">A1Test_validate_specific_comment</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">A2Test_Update_comment</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">A3Test_delete_comment</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">Test_try_to_delete_nonexistent_comment</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">Test_try_to_show_nonexistent_comment</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">Test_try_to_update_nonexistent_comment</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">Test_validate_All_Comments</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">create_post</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">A1Test_update_Post</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">A2Test_validate_Specific_Post</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">Test_Create_comment_success</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">Test_delete_Post</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">Test_try_to_Create_comment_Unauthorized</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">Test_try_to_delete_nonexistent_Post</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">Test_try_to_list_nonexistent_Post</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">Test_try_to_update_nonexistent_Post</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">Test_validateAll_posts_Schema</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-localExecution" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for localExecution</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_localExecution');
+function tableData_localExecution() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(19);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'Test_try_to_list_nonexistent_Post')
+data.setCell(0, 2, 'postTest')
+data.setCell(0, 3, 1894);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'A1Test_update_Post')
+data.setCell(1, 2, 'postTest')
+data.setCell(1, 3, 1481);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'Test_try_to_delete_nonexistent_Post')
+data.setCell(2, 2, 'postTest')
+data.setCell(2, 3, 1461);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'A2Test_validate_Specific_Post')
+data.setCell(3, 2, 'postTest')
+data.setCell(3, 3, 1396);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'Test_CreatePost_success')
+data.setCell(4, 2, 'postTest')
+data.setCell(4, 3, 1319);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'Test_validate_All_Comments')
+data.setCell(5, 2, 'CommentTest')
+data.setCell(5, 3, 1280);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'Test_validateAll_posts_Schema')
+data.setCell(6, 2, 'postTest')
+data.setCell(6, 3, 1238);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'Test_try_to_update_nonexistent_comment')
+data.setCell(7, 2, 'CommentTest')
+data.setCell(7, 3, 1230);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'Test_try_to_update_nonexistent_Post')
+data.setCell(8, 2, 'postTest')
+data.setCell(8, 3, 1139);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'Test_delete_Post')
+data.setCell(9, 2, 'postTest')
+data.setCell(9, 3, 1098);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'Test_try_to_show_nonexistent_comment')
+data.setCell(10, 2, 'CommentTest')
+data.setCell(10, 3, 904);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'A2Test_Update_comment')
+data.setCell(11, 2, 'CommentTest')
+data.setCell(11, 3, 828);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'A1Test_validate_specific_comment')
+data.setCell(12, 2, 'CommentTest')
+data.setCell(12, 3, 762);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'Test_Create_comment_success')
+data.setCell(13, 2, 'CommentTest')
+data.setCell(13, 3, 710);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'A3Test_delete_comment')
+data.setCell(14, 2, 'CommentTest')
+data.setCell(14, 3, 648);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'Test_try_to_Create_comment_Unauthorized')
+data.setCell(15, 2, 'CommentTest')
+data.setCell(15, 3, 644);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'Test_Invalid_Token_Cant_Create_New_Post')
+data.setCell(16, 2, 'postTest')
+data.setCell(16, 3, 577);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'Test_try_to_delete_nonexistent_comment')
+data.setCell(17, 2, 'CommentTest')
+data.setCell(17, 3, 567);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'Test_validate_try_to_list_posts_no_login')
+data.setCell(18, 2, 'postTest')
+data.setCell(18, 3, 498);
+window.suiteTableData['localExecution']= { tableData: data, tableDiv: 'times-div-localExecution'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 19 seconds</span>
+              <div id="times-div-localExecution">
+              </div> <!-- times-div-localExecution -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-localExecution" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for localExecution</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-localExecution" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-localExecution" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">postTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup(https://api-coffee-testing.herokuapp.com)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">CommentTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup(https://api-coffee-testing.herokuapp.com)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">createComment</span>
+                <span class="method-start">444 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">postTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">createPost</span>
+                <span class="method-start">444 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">A1Test_update_Post</span>
+                <span class="method-start">4684 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">CommentTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">A1Test_validate_specific_comment</span>
+                <span class="method-start">5561 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">postTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">A2Test_validate_Specific_Post</span>
+                <span class="method-start">6167 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">CommentTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">A2Test_Update_comment</span>
+                <span class="method-start">6323 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">A3Test_delete_comment</span>
+                <span class="method-start">7151 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">postTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">Test_CreatePost_success</span>
+                <span class="method-start">7563 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">CommentTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">createPost</span>
+                <span class="method-start">7800 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">postTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">Test_Invalid_Token_Cant_Create_New_Post</span>
+                <span class="method-start">8883 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">CommentTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">Test_Create_comment_success</span>
+                <span class="method-start">9057 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">postTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">Test_delete_Post</span>
+                <span class="method-start">9461 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">CommentTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">Test_try_to_Create_comment_Unauthorized</span>
+                <span class="method-start">9768 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Test_try_to_delete_nonexistent_comment</span>
+                <span class="method-start">10412 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">postTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">Test_try_to_delete_nonexistent_Post</span>
+                <span class="method-start">10560 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">CommentTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">Test_try_to_show_nonexistent_comment</span>
+                <span class="method-start">10979 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Test_try_to_update_nonexistent_comment</span>
+                <span class="method-start">11883 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">postTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">Test_try_to_list_nonexistent_Post</span>
+                <span class="method-start">12021 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">CommentTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">Test_validate_All_Comments</span>
+                <span class="method-start">13114 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">postTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">Test_try_to_update_nonexistent_Post</span>
+                <span class="method-start">13915 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Test_validateAll_posts_Schema</span>
+                <span class="method-start">15054 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Test_validate_try_to_list_posts_no_login</span>
+                <span class="method-start">16292 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

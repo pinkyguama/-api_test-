@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="19" passed="19">
+  <reporter-output>
+  </reporter-output>
+  <suite name="localExecution" duration-ms="16797" started-at="2021-02-24T23:50:36Z" finished-at="2021-02-24T23:50:53Z">
+    <groups>
+      <group name="create_post">
+        <method signature="CommentTest.Test_Create_comment_success()[pri:0, instance:CommentTest@34b7bfc0]" name="Test_Create_comment_success" class="CommentTest"/>
+        <method signature="CommentTest.Test_try_to_Create_comment_Unauthorized()[pri:0, instance:CommentTest@34b7bfc0]" name="Test_try_to_Create_comment_Unauthorized" class="CommentTest"/>
+        <method signature="postTest.A1Test_update_Post()[pri:0, instance:postTest@5cc7c2a6]" name="A1Test_update_Post" class="postTest"/>
+        <method signature="postTest.A2Test_validate_Specific_Post()[pri:0, instance:postTest@5cc7c2a6]" name="A2Test_validate_Specific_Post" class="postTest"/>
+        <method signature="postTest.Test_delete_Post()[pri:0, instance:postTest@5cc7c2a6]" name="Test_delete_Post" class="postTest"/>
+        <method signature="postTest.Test_try_to_delete_nonexistent_Post()[pri:0, instance:postTest@5cc7c2a6]" name="Test_try_to_delete_nonexistent_Post" class="postTest"/>
+        <method signature="postTest.Test_try_to_list_nonexistent_Post()[pri:0, instance:postTest@5cc7c2a6]" name="Test_try_to_list_nonexistent_Post" class="postTest"/>
+        <method signature="postTest.Test_try_to_update_nonexistent_Post()[pri:0, instance:postTest@5cc7c2a6]" name="Test_try_to_update_nonexistent_Post" class="postTest"/>
+        <method signature="postTest.Test_validateAll_posts_Schema()[pri:0, instance:postTest@5cc7c2a6]" name="Test_validateAll_posts_Schema" class="postTest"/>
+      </group> <!-- create_post -->
+      <group name="create_comment">
+        <method signature="CommentTest.A1Test_validate_specific_comment()[pri:0, instance:CommentTest@34b7bfc0]" name="A1Test_validate_specific_comment" class="CommentTest"/>
+        <method signature="CommentTest.A2Test_Update_comment()[pri:0, instance:CommentTest@34b7bfc0]" name="A2Test_Update_comment" class="CommentTest"/>
+        <method signature="CommentTest.A3Test_delete_comment()[pri:0, instance:CommentTest@34b7bfc0]" name="A3Test_delete_comment" class="CommentTest"/>
+        <method signature="CommentTest.Test_try_to_delete_nonexistent_comment()[pri:0, instance:CommentTest@34b7bfc0]" name="Test_try_to_delete_nonexistent_comment" class="CommentTest"/>
+        <method signature="CommentTest.Test_try_to_show_nonexistent_comment()[pri:0, instance:CommentTest@34b7bfc0]" name="Test_try_to_show_nonexistent_comment" class="CommentTest"/>
+        <method signature="CommentTest.Test_try_to_update_nonexistent_comment()[pri:0, instance:CommentTest@34b7bfc0]" name="Test_try_to_update_nonexistent_comment" class="CommentTest"/>
+        <method signature="CommentTest.Test_validate_All_Comments()[pri:0, instance:CommentTest@34b7bfc0]" name="Test_validate_All_Comments" class="CommentTest"/>
+      </group> <!-- create_comment -->
+    </groups>
+    <test name="comment tests" duration-ms="14402" started-at="2021-02-24T23:50:36Z" finished-at="2021-02-24T23:50:51Z">
+      <class name="CommentTest">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:CommentTest@34b7bfc0]" name="setup" is-config="true" duration-ms="440" started-at="2021-02-24T23:50:36Z" finished-at="2021-02-24T23:50:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://api-coffee-testing.herokuapp.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="createComment()[pri:0, instance:CommentTest@34b7bfc0]" name="createComment" is-config="true" duration-ms="5117" started-at="2021-02-24T23:50:37Z" finished-at="2021-02-24T23:50:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createComment -->
+        <test-method status="PASS" signature="A1Test_validate_specific_comment()[pri:0, instance:CommentTest@34b7bfc0]" name="A1Test_validate_specific_comment" duration-ms="762" started-at="2021-02-24T23:50:42Z" finished-at="2021-02-24T23:50:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- A1Test_validate_specific_comment -->
+        <test-method status="PASS" signature="A2Test_Update_comment()[pri:0, instance:CommentTest@34b7bfc0]" name="A2Test_Update_comment" duration-ms="828" started-at="2021-02-24T23:50:43Z" finished-at="2021-02-24T23:50:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- A2Test_Update_comment -->
+        <test-method status="PASS" signature="A3Test_delete_comment()[pri:0, instance:CommentTest@34b7bfc0]" name="A3Test_delete_comment" duration-ms="648" started-at="2021-02-24T23:50:44Z" finished-at="2021-02-24T23:50:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- A3Test_delete_comment -->
+        <test-method status="PASS" signature="createPost()[pri:0, instance:CommentTest@34b7bfc0]" name="createPost" is-config="true" duration-ms="1257" started-at="2021-02-24T23:50:44Z" finished-at="2021-02-24T23:50:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createPost -->
+        <test-method status="PASS" signature="Test_Create_comment_success()[pri:0, instance:CommentTest@34b7bfc0]" name="Test_Create_comment_success" duration-ms="710" started-at="2021-02-24T23:50:45Z" finished-at="2021-02-24T23:50:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_Create_comment_success -->
+        <test-method status="PASS" signature="Test_try_to_Create_comment_Unauthorized()[pri:0, instance:CommentTest@34b7bfc0]" name="Test_try_to_Create_comment_Unauthorized" duration-ms="644" started-at="2021-02-24T23:50:46Z" finished-at="2021-02-24T23:50:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_try_to_Create_comment_Unauthorized -->
+        <test-method status="PASS" signature="Test_try_to_delete_nonexistent_comment()[pri:0, instance:CommentTest@34b7bfc0]" name="Test_try_to_delete_nonexistent_comment" duration-ms="567" started-at="2021-02-24T23:50:47Z" finished-at="2021-02-24T23:50:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_try_to_delete_nonexistent_comment -->
+        <test-method status="PASS" signature="Test_try_to_show_nonexistent_comment()[pri:0, instance:CommentTest@34b7bfc0]" name="Test_try_to_show_nonexistent_comment" duration-ms="904" started-at="2021-02-24T23:50:47Z" finished-at="2021-02-24T23:50:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_try_to_show_nonexistent_comment -->
+        <test-method status="PASS" signature="Test_try_to_update_nonexistent_comment()[pri:0, instance:CommentTest@34b7bfc0]" name="Test_try_to_update_nonexistent_comment" duration-ms="1230" started-at="2021-02-24T23:50:48Z" finished-at="2021-02-24T23:50:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_try_to_update_nonexistent_comment -->
+        <test-method status="PASS" signature="Test_validate_All_Comments()[pri:0, instance:CommentTest@34b7bfc0]" name="Test_validate_All_Comments" duration-ms="1280" started-at="2021-02-24T23:50:49Z" finished-at="2021-02-24T23:50:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_validate_All_Comments -->
+      </class> <!-- CommentTest -->
+    </test> <!-- comment tests -->
+    <test name="post tests" duration-ms="16797" started-at="2021-02-24T23:50:36Z" finished-at="2021-02-24T23:50:53Z">
+      <class name="postTest">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:postTest@5cc7c2a6]" name="setup" is-config="true" duration-ms="440" started-at="2021-02-24T23:50:36Z" finished-at="2021-02-24T23:50:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://api-coffee-testing.herokuapp.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="createPost()[pri:0, instance:postTest@5cc7c2a6]" name="createPost" is-config="true" duration-ms="4240" started-at="2021-02-24T23:50:37Z" finished-at="2021-02-24T23:50:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createPost -->
+        <test-method status="PASS" signature="A1Test_update_Post()[pri:0, instance:postTest@5cc7c2a6]" name="A1Test_update_Post" duration-ms="1481" started-at="2021-02-24T23:50:41Z" finished-at="2021-02-24T23:50:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- A1Test_update_Post -->
+        <test-method status="PASS" signature="A2Test_validate_Specific_Post()[pri:0, instance:postTest@5cc7c2a6]" name="A2Test_validate_Specific_Post" duration-ms="1396" started-at="2021-02-24T23:50:43Z" finished-at="2021-02-24T23:50:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- A2Test_validate_Specific_Post -->
+        <test-method status="PASS" signature="Test_CreatePost_success()[pri:0, instance:postTest@5cc7c2a6]" name="Test_CreatePost_success" duration-ms="1319" started-at="2021-02-24T23:50:44Z" finished-at="2021-02-24T23:50:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_CreatePost_success -->
+        <test-method status="PASS" signature="Test_Invalid_Token_Cant_Create_New_Post()[pri:0, instance:postTest@5cc7c2a6]" name="Test_Invalid_Token_Cant_Create_New_Post" duration-ms="577" started-at="2021-02-24T23:50:45Z" finished-at="2021-02-24T23:50:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_Invalid_Token_Cant_Create_New_Post -->
+        <test-method status="PASS" signature="Test_delete_Post()[pri:0, instance:postTest@5cc7c2a6]" name="Test_delete_Post" duration-ms="1098" started-at="2021-02-24T23:50:46Z" finished-at="2021-02-24T23:50:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_delete_Post -->
+        <test-method status="PASS" signature="Test_try_to_delete_nonexistent_Post()[pri:0, instance:postTest@5cc7c2a6]" name="Test_try_to_delete_nonexistent_Post" duration-ms="1461" started-at="2021-02-24T23:50:47Z" finished-at="2021-02-24T23:50:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_try_to_delete_nonexistent_Post -->
+        <test-method status="PASS" signature="Test_try_to_list_nonexistent_Post()[pri:0, instance:postTest@5cc7c2a6]" name="Test_try_to_list_nonexistent_Post" duration-ms="1894" started-at="2021-02-24T23:50:48Z" finished-at="2021-02-24T23:50:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_try_to_list_nonexistent_Post -->
+        <test-method status="PASS" signature="Test_try_to_update_nonexistent_Post()[pri:0, instance:postTest@5cc7c2a6]" name="Test_try_to_update_nonexistent_Post" duration-ms="1139" started-at="2021-02-24T23:50:50Z" finished-at="2021-02-24T23:50:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_try_to_update_nonexistent_Post -->
+        <test-method status="PASS" signature="Test_validateAll_posts_Schema()[pri:0, instance:postTest@5cc7c2a6]" name="Test_validateAll_posts_Schema" duration-ms="1238" started-at="2021-02-24T23:50:51Z" finished-at="2021-02-24T23:50:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_validateAll_posts_Schema -->
+        <test-method status="PASS" signature="Test_validate_try_to_list_posts_no_login()[pri:0, instance:postTest@5cc7c2a6]" name="Test_validate_try_to_list_posts_no_login" duration-ms="498" started-at="2021-02-24T23:50:53Z" finished-at="2021-02-24T23:50:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_validate_try_to_list_posts_no_login -->
+      </class> <!-- postTest -->
+    </test> <!-- post tests -->
+  </suite> <!-- localExecution -->
+</testng-results>

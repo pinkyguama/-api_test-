@@ -1,0 +1,223 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema",
+  "$id": "http://example.com/example.json",
+  "type": "object",
+  "title": "The root schema",
+  "description": "The root schema comprises the entire JSON document.",
+  "default": {},
+  "examples": [
+    {
+      "results": [
+        {
+          "data": [
+            {
+              "id": 106,
+              "name": "yisik2",
+              "comment": "Ut mollitia dolorem.",
+              "updated_at": 1613784702,
+              "created_at": 1613784702
+            }
+          ],
+          "meta": {
+            "total": 1
+          }
+        }
+      ]
+    }
+  ],
+  "required": [
+    "results"
+  ],
+  "properties": {
+    "results": {
+      "$id": "#/properties/results",
+      "type": "array",
+      "title": "The results schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": [],
+      "examples": [
+        [
+          {
+            "data": [
+              {
+                "id": 106,
+                "name": "yisik2",
+                "comment": "Ut mollitia dolorem.",
+                "updated_at": 1613784702,
+                "created_at": 1613784702
+              }
+            ],
+            "meta": {
+              "total": 1
+            }
+          }
+        ]
+      ],
+      "additionalItems": true,
+      "items": {
+        "$id": "#/properties/results/items",
+        "anyOf": [
+          {
+            "$id": "#/properties/results/items/anyOf/0",
+            "type": "object",
+            "title": "The first anyOf schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": {},
+            "examples": [
+              {
+                "data": [
+                  {
+                    "id": 106,
+                    "name": "yisik2",
+                    "comment": "Ut mollitia dolorem.",
+                    "updated_at": 1613784702,
+                    "created_at": 1613784702
+                  }
+                ],
+                "meta": {
+                  "total": 1
+                }
+              }
+            ],
+            "required": [
+              "data",
+              "meta"
+            ],
+            "properties": {
+              "data": {
+                "$id": "#/properties/results/items/anyOf/0/properties/data",
+                "type": "array",
+                "title": "The data schema",
+                "description": "An explanation about the purpose of this instance.",
+                "default": [],
+                "examples": [
+                  [
+                    {
+                      "id": 106,
+                      "name": "yisik2",
+                      "comment": "Ut mollitia dolorem.",
+                      "updated_at": 1613784702,
+                      "created_at": 1613784702
+                    }
+                  ]
+                ],
+                "additionalItems": true,
+                "items": {
+                  "$id": "#/properties/results/items/anyOf/0/properties/data/items",
+                  "anyOf": [
+                    {
+                      "$id": "#/properties/results/items/anyOf/0/properties/data/items/anyOf/0",
+                      "type": "object",
+                      "title": "The first anyOf schema",
+                      "description": "An explanation about the purpose of this instance.",
+                      "default": {},
+                      "examples": [
+                        {
+                          "id": 106,
+                          "name": "yisik2",
+                          "comment": "Ut mollitia dolorem.",
+                          "updated_at": 1613784702,
+                          "created_at": 1613784702
+                        }
+                      ],
+                      "required": [
+                        "id",
+                        "name",
+                        "comment",
+                        "updated_at",
+                        "created_at"
+                      ],
+                      "properties": {
+                        "id": {
+                          "$id": "#/properties/results/items/anyOf/0/properties/data/items/anyOf/0/properties/id",
+                          "type": "integer",
+                          "title": "The id schema",
+                          "description": "An explanation about the purpose of this instance.",
+                          "default": 0,
+                          "examples": [
+                            106
+                          ]
+                        },
+                        "name": {
+                          "$id": "#/properties/results/items/anyOf/0/properties/data/items/anyOf/0/properties/name",
+                          "type": "string",
+                          "title": "The name schema",
+                          "description": "An explanation about the purpose of this instance.",
+                          "default": "",
+                          "examples": [
+                            "yisik2"
+                          ]
+                        },
+                        "comment": {
+                          "$id": "#/properties/results/items/anyOf/0/properties/data/items/anyOf/0/properties/comment",
+                          "type": "string",
+                          "title": "The comment schema",
+                          "description": "An explanation about the purpose of this instance.",
+                          "default": "",
+                          "examples": [
+                            "Ut mollitia dolorem."
+                          ]
+                        },
+                        "updated_at": {
+                          "$id": "#/properties/results/items/anyOf/0/properties/data/items/anyOf/0/properties/updated_at",
+                          "type": "integer",
+                          "title": "The updated_at schema",
+                          "description": "An explanation about the purpose of this instance.",
+                          "default": 0,
+                          "examples": [
+                            1613784702
+                          ]
+                        },
+                        "created_at": {
+                          "$id": "#/properties/results/items/anyOf/0/properties/data/items/anyOf/0/properties/created_at",
+                          "type": "integer",
+                          "title": "The created_at schema",
+                          "description": "An explanation about the purpose of this instance.",
+                          "default": 0,
+                          "examples": [
+                            1613784702
+                          ]
+                        }
+                      },
+                      "additionalProperties": true
+                    }
+                  ]
+                }
+              },
+              "meta": {
+                "$id": "#/properties/results/items/anyOf/0/properties/meta",
+                "type": "object",
+                "title": "The meta schema",
+                "description": "An explanation about the purpose of this instance.",
+                "default": {},
+                "examples": [
+                  {
+                    "total": 1
+                  }
+                ],
+                "required": [
+                  "total"
+                ],
+                "properties": {
+                  "total": {
+                    "$id": "#/properties/results/items/anyOf/0/properties/meta/properties/total",
+                    "type": "integer",
+                    "title": "The total schema",
+                    "description": "An explanation about the purpose of this instance.",
+                    "default": 0,
+                    "examples": [
+                      1
+                    ]
+                  }
+                },
+                "additionalProperties": true
+              }
+            },
+            "additionalProperties": true
+          }
+        ]
+      }
+    }
+  },
+  "additionalProperties": true
+}
